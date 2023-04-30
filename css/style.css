@@ -63,12 +63,12 @@ body{
     left: 50%;
     bottom: 0;
     border-bottom: 3px solid #00ca9b;
-    transition: .3s;
+    transition: .4s;
 }
 .header-navbar ul li:hover a:after{
     left: 1em;
     right: 1em;
-    bottom:-1px;
+    bottom:-5px;
 }
 
 /*banner-------*/
