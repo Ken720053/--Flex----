@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="icon">
+            <div class="facebook"><a href="#"><img src="image/facebookIcon.png" alt="facebook">粉絲團</a></div>
+            <div class="twitter"><a href="#"><img src="image/twitterIcon.png" alt="twitter">聯絡我們</a></div>
+        </div>
+        <div class="header-navbar">
+            <a href="#"><img src="image/logo.png" alt="Logo"></a>
+            <ul>
+                <li><a href="#">首頁</a></li>
+                <li><a href="#">產品介紹</a></li>
+                <li class="item3"><a href="#">連絡我們</a></li>
+            </ul> 
+        </div>
+    </header>
+    <div class="banner">
+        <div class="container">
+            <h1>六角學院<br>
+            讓您奠定良好基礎</h1>
+        </div>
+    </div>
+    <div class="wrap">
+        <div class="container">
+            <div class="couser-item1">
+                <img src="image/html.png" alt="">
+                <h3>Html 5基礎教學</h3>
+                <p>主流前端網站設計的基礎就在六角學院，在這裡不是填鴨式教學，而是透過實際的範例，瞭解正確網站的開發流程，講師均具有業界開發經驗，讓學員學習主流的開發經驗。</p>
+            </div>
+            <div class="couser-item2">
+                <img src="image/rwd.png" alt="">
+                <h3>響應式網站設計</h3>
+                <p>響 應 式 網 站 設 計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的，六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+            </div>
+            <div class="couser-item3">
+                <img src="image/jQuery.png" alt="">
+                <h3>jQuery實戰教學</h3>
+                <p class="sub-title">本課程有以下特色</p>
+                <ul class="item-ul">
+                    <li>瞭解變數的使用方法</li>
+                    <li>學習並操作DOM</li>
+                    <li>學習基本數學運算方法</li>
+                    <li>套件的操作及應用</li>
+                </ul>
+            </div>
+        </div>
+        <div class="table">
+            <h2 class="table-title">線上及實體課程的差異</h2>
+            <div class="container">
+                <div class="table-item1">
+                    <ul>
+                        <li class="subtitle">項目</li>
+                        <li>費用</li>
+                        <li>學習效果</li>
+                        <li>Code review</li>
+                        <li>課程更新速度</li>
+                        <li>多次複習</li>
+                        <li>字幕</li>
+                    </ul>
+                </div>
+                <div class="table-item2">
+                    <ul>
+                        <li class="subtitle">Hex School線上課程</li>
+                        <li class="Green">較低</li>
+                        <li>一般</li>
+                        <li class="Green">有</li>
+                        <li class="Green">普通</li>
+                        <li class="Green">可</li>
+                        <li class="Green">有</li>
+                    </ul>
+                </div>
+                <div class="table-item3">
+                    <ul>
+                        <li class="subtitle">一般線上課程</li>
+                        <li class="Green">較低</li>
+                        <li class="Green">較低</li>
+                        <li>無</li>
+                        <li class="Green">普通</li>
+                        <li>可</li>
+                        <li>不一定</li>
+                    </ul>
+                </div>
+                <div class="table-item4">
+                    <ul>
+                        <li class="subtitle">實體課程</li>
+                        <li>較高</li>
+                        <li class="Green">很好</li>
+                        <li>不一定</li>
+                        <li>較慢</li>
+                        <li>不可</li>
+                        <li>板書</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <form class="form">
+            <div class="title">
+                <h3 class="title1">對我們課程有興趣嗎?</h3>
+                <h3 class="title2">歡迎留下您的資料</h3>
+            </div>
+            <div class="content">
+                <div class="group">
+                    <label for="">姓名</label>
+                    <input type="text" name="" id="user_name">
+                    <label for="">電話</label>
+                    <input type="text" name="" id="user_phone">
+                    <label for="">信箱</label>
+                    <input type="text" name="" id="user_email">
+                </div>
+                <div class="btn">
+                    <button onclick="alertEvent()">送出</button>
+                </div>
+            </div>
+        </form>
+        <footer>
+            <div class="footer-logo">
+                <img src="image/footerLogo.png" alt="">
+            </div>
+            <div class="content">
+                <p>聯絡我們 : <span>hexscoll@gmail.com</span></p>
+                <p>電話 : <span>0999123456</span></p>
+            </div>
+        </footer>
+    </div>
+</body>
+<script>
+    function alertEvent(){
+        alert("已送出表單!!");
+        window.location = "127.0.0.1";
+    }
+</script>
+</html>

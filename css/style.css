@@ -1,0 +1,240 @@
+*{
+    font-family: 'Noto Sans TC',sans-serif;
+}
+body{
+    width: 100%;
+}
+/*Header-------*/
+
+.icon{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+.icon img{
+    width: 16px;
+    margin-right: 1px;
+    vertical-align:text-top;
+}
+.facebook,.twitter{
+    display: block;
+}
+.facebook{
+    border-right: 1px solid #cbcbcb;
+}
+.facebook a{
+    color: #6f799c;
+    padding-right: 10px;
+    display: block;
+}
+.twitter a{
+    color: #15a9f3;
+    padding-right: 15px;
+    padding-left: 8px;
+}
+.header-navbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.header-navbar>ul{
+    display: flex;
+    justify-content: space-around !important;
+    align-items: center;
+    list-style: none;
+    margin-right: 5px;
+}
+.header-navbar ul li{
+    padding: 0 20px;
+    position: relative;
+}
+.header-navbar ul li a{
+    color: #00ca9b;
+    display: block;
+}
+.header-navbar ul>.item3{
+    margin-left: 8px;
+}
+.header-navbar ul li>a::after{
+    content: '';
+    display: block;
+    position: absolute;
+    right: 50%;
+    left: 50%;
+    bottom: 0;
+    border-bottom: 3px solid #00ca9b;
+    transition: .3s;
+}
+.header-navbar ul li:hover a:after{
+    left: 1em;
+    right: 1em;
+    bottom:-1px;
+}
+
+/*banner-------*/
+
+.banner{
+    background-image: url("../image/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 95px 0;
+}
+.banner .container{
+    width: 100%;
+    padding: 40px 0 40px 20px;
+    background-color: rgba(32,31,29,50%);
+    box-sizing: border-box;
+}
+.banner .container h1{
+    font-size: 32px;
+    color: #f7f7f7;
+}
+
+/*wrap-------*/
+
+.wrap{
+    width: 100%;
+}
+.wrap .container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 40px;
+    margin-bottom: 95px;
+}
+.couser-item1,.couser-item2,.couser-item3{
+    width: 260px;
+    padding: 0 10px;
+    margin-top: 40px;
+    display: block;
+    box-shadow: 0 10px 15px -5px #afabab;
+}
+.couser-item1{
+    padding-bottom: 10px;
+    box-sizing:border-box
+}
+.couser-item1 img,.couser-item2 img,.couser-item3 img{
+    width: 100%;
+}
+.container h3{
+    text-align: center;
+    margin: 0 auto;
+    font-size: 20px;
+}
+.container p{
+    margin: 10px 0;
+    color: #262626;
+}
+.couser-item3 .item-ul{
+    margin-top: 0px;
+}
+.couser-item3 .item-ul li{
+    color: #262626;
+    list-style: disc;
+}
+
+/*table-------*/
+
+.table .table-title{
+    font-size: 24px;
+    color: #2d2d2d;
+    text-align: center;
+}
+.table .container{
+    display: flex;
+}
+.table .container li{
+    list-style: none;
+    padding: 13px 0;
+}
+.table .container ul .subtitle{
+    font-weight: 600;
+}
+.table .container ul .Green{
+    color: #02b58b;
+}
+
+/*form-------*/
+
+.form{
+    background: linear-gradient(180deg,#00674c,#009671);
+    padding-bottom: 15px;
+    padding-right: 10px;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0 auto;
+}
+.form .title{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+}
+.form .title h3{
+    font-size: 24px;
+    text-align: end;
+    line-height: 1.5;
+    color: #fff;
+    margin: 0;
+}
+.form .title .title1{
+    padding-top: 40px;
+}
+.form .title .title2{
+    padding-left: 12px;
+}
+.form .content{
+    display: flex;
+    flex-direction: column;
+    justify-content:center ;
+    align-items: center;
+}
+.form .group{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.form .group label{
+    margin: 5px 0;
+}
+.form .group input{
+    height: 25px;
+    width: 300px;
+    border-radius: 5px;
+    border-style: none;
+    outline: none;
+}
+.form .btn{
+    color: #009671;
+}
+.form .btn button{
+    padding: 7.5px 15px;
+    border-radius: 6px;
+    border-style: none;
+    margin-left: 240px;
+    color: #fffbfb;
+    text-align: center;
+    background-color: #00cc99;
+}
+
+/*footer-------*/
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 10px 20px;
+    box-sizing: border-box;
+}
+footer .footer-logo{
+    width: 100%;
+}
+.content p{
+    white-space: nowrap;
+}
+.content span{
+    color: #e4226b;
+}
